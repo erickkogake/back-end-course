@@ -1,4 +1,4 @@
-const minhaVar;
+const minhaVar = 0;
 
 console.log(minhaVar);
 
