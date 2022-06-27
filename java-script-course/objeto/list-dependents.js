@@ -19,6 +19,15 @@ console.log(cliente)
 
 const parente = cliente.dependentes.filter(dependente => dependente.parentesco === 'ela mesmo')
 
-console.log(parente)
+// console.log(parente)
 console.log(parente[0].parentesco)
+
+let relatorio ='';
+
+for(let dados in cliente) {
+  relatorio += `${dados}, `
+}
+
+// console.log(relatorio)
+
 
